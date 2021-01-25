@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "date": "01/01/2021",
+        "full_name": "Omri Haham",
+        "city": "Tel Aviv"
+    },
+    {
+        "id": 2,
+        "date": "02/01/2021",
+        "full_name": "Shimi Mimi",
+        "city": "Jerusalem"
+    },
+    {
+        "id": 3,
+        "date": "03/01/2021",
+        "full_name": "Momo Komo",
+        "city": "Yeruham"
+    }
+]

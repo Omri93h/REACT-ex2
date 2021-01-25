@@ -1,13 +1,105 @@
-body {
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+/*  */
+
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+}
+
+.delivery {
+  position: relative;
+  min-width: 800px;
+  width: 1000px;
+  height: 600px;
+  min-height: 600px;
+  margin: 0 auto;
+}
+
+.scene {
+  background: url('/src/Img/Scene.png') no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 550px;
+  background-position: right;
+  background-size: contain;
+}
+
+.delivery-main {
+  display: flex;
+  margin-top: 85px;
+  margin-left: 300px;
+  width: 600px;
+  justify-content: space-between;
+}
+
+.delivery-list {
+  width: 400px;
+  background-color: white;
+  border-radius: 10px;
+  min-height: 350px;
+  padding-top: 10px;
+}
+
+.DeliveryItem {
+  display: flex;
+  line-height: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.DeliveryItem span {
+  display: inline-block;
+  width: 100px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.DeliveryItem .delivery-id {
+  width: 40px;
+  text-align: center;
+}
+
+.DeliveryItem .delivery-item-buttons {
+  width: 60px;
+}
+
+i {
+  margin: 0px 2px;
+  cursor: pointer;
+  color: coral;
+}
+
+.mobel {
+  position: absolute;
+  z-index: 99;
+  bottom: 0;
+  height: 170px;
+  width: 100%;
+  background: url('/src/Img/Mobel.png') no-repeat;
+  background-size: contain;
+}
+
+input {
+  margin-bottom: 10px;
+  height: 30px;
+  line-height: 30px;
+  padding: 2px;
+  font-family: 'Poppins', sans-serif;
+}
+
+#save-button{
+  position: relative;
+  margin:0 auto;
+  text-align:center;
+  color: coral;  
+  font-weight: bold;
+
 }
